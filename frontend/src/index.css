@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-coffee-50: #fdf8f5;
+  --color-coffee-100: #f9eee6;
+  --color-coffee-200: #f2dcd0;
+  --color-coffee-300: #e7c3af;
+  --color-coffee-400: #da9c7c;
+  --color-coffee-500: #d07e55;
+  --color-coffee-600: #c26242;
+  --color-coffee-700: #a24b35;
+  --color-coffee-800: #833d30;
+  --color-coffee-900: #6a3429;
+  --color-coffee-950: #391813;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-coffee-50);
+    color: var(--color-coffee-950);
+  }
+}
+
+.coffee-gradient {
+  background: linear-gradient(135deg, #d07e55 0%, #a24b35 100%);
+}
