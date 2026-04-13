@@ -39,6 +39,11 @@ async function initDB() {
 
 initDB();
 
+// Health check route
+app.get('/', (req, res) => {
+  res.json({ status: 'ok', message: 'Hangout Cafe API is running 🚀' });
+});
+
 // GET all orders
 app.get('/api/orders', async (req, res) => {
   try {
