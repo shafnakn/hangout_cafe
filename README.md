@@ -24,22 +24,6 @@ I have successfully created a modern, responsive cafe website for "The Hangout C
 
 ---
 
-## 🚀 How to Run the Project Locally
+## 🚀 How to Run the Project 
 
-### 1. Start the Backend Server
-Open your terminal and navigate to the backend folder:
-```powershell
-cd c:\Users\shafn\Desktop\hangout\backend
-npm start
-```
-*The server will start running on port 5000 and initialize `cafe.db`.*
-
-### 2. Start the Frontend App
-Open a completely new terminal and navigate to the frontend folder:
-```powershell
-cd c:\Users\shafn\Desktop\hangout\frontend
-npm run dev
-```
-*The app will start on Vite's dev server (e.g., http://localhost:5173).*
-
-Navigate through the beautiful site, place an order, and visit `http://localhost:5173/admin` to see the orders on the dashboard.
+https://hangoutcafepjr.vercel.app/
