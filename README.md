@@ -1,6 +1,5 @@
 # The Hangout Cafe - Web App Setup
 
-I have successfully created a modern, responsive cafe website for "The Hangout Cafe" according to your requirements. The project has been split into a frontend and a backend workspace under your `c:\Users\shafn\Desktop\hangout`.
 
 ## Features Implemented
 ### 🎨 General Design & Look
